@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: autochef-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./autochef.db
+      - SECRET_KEY=autochef-docker-secret-key-3912
+      - API_V1_STR=/api/v1
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/trained_models:/app/trained_models
+      - ./backend/datasets:/app/datasets
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: autochef-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped

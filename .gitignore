@@ -1,0 +1,57 @@
+# AutoChef Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+ENV/
+*.pt
+*.onnx
+
+# SQLite
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploads & Temp Data
+uploads/
+backend/uploads/
+*.jpg
+*.jpeg
+*.png
+
+# Environments & IDE
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.pytest_cache/

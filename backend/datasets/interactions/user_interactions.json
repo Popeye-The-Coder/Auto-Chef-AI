@@ -1,0 +1,51 @@
+[
+  {"user_id": 1, "recipe_id": 1, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 1, "recipe_id": 2, "rating": 4.5, "interaction": "save"},
+  {"user_id": 1, "recipe_id": 3, "rating": 4.0, "interaction": "like"},
+  {"user_id": 1, "recipe_id": 6, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 1, "recipe_id": 8, "rating": 4.0, "interaction": "view"},
+  {"user_id": 1, "recipe_id": 11, "rating": 4.5, "interaction": "cook"},
+
+  {"user_id": 2, "recipe_id": 4, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 2, "recipe_id": 7, "rating": 4.8, "interaction": "cook"},
+  {"user_id": 2, "recipe_id": 12, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 2, "recipe_id": 10, "rating": 4.0, "interaction": "like"},
+  {"user_id": 2, "recipe_id": 9, "rating": 3.5, "interaction": "view"},
+  {"user_id": 2, "recipe_id": 3, "rating": 2.0, "interaction": "skip"},
+
+  {"user_id": 3, "recipe_id": 2, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 3, "recipe_id": 3, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 3, "recipe_id": 5, "rating": 4.5, "interaction": "cook"},
+  {"user_id": 3, "recipe_id": 8, "rating": 4.0, "interaction": "like"},
+  {"user_id": 3, "recipe_id": 9, "rating": 4.8, "interaction": "save"},
+  {"user_id": 3, "recipe_id": 4, "rating": 1.0, "interaction": "skip"},
+  {"user_id": 3, "recipe_id": 12, "rating": 1.0, "interaction": "skip"},
+
+  {"user_id": 4, "recipe_id": 1, "rating": 4.5, "interaction": "cook"},
+  {"user_id": 4, "recipe_id": 7, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 4, "recipe_id": 10, "rating": 4.0, "interaction": "like"},
+  {"user_id": 4, "recipe_id": 11, "rating": 4.8, "interaction": "save"},
+  {"user_id": 4, "recipe_id": 6, "rating": 4.5, "interaction": "cook"},
+
+  {"user_id": 5, "recipe_id": 5, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 5, "recipe_id": 12, "rating": 4.5, "interaction": "cook"},
+  {"user_id": 5, "recipe_id": 4, "rating": 4.0, "interaction": "like"},
+  {"user_id": 5, "recipe_id": 9, "rating": 4.0, "interaction": "view"},
+  {"user_id": 5, "recipe_id": 1, "rating": 3.0, "interaction": "view"},
+
+  {"user_id": 6, "recipe_id": 2, "rating": 4.5, "interaction": "like"},
+  {"user_id": 6, "recipe_id": 8, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 6, "recipe_id": 3, "rating": 4.0, "interaction": "view"},
+  {"user_id": 6, "recipe_id": 10, "rating": 4.2, "interaction": "save"},
+  {"user_id": 6, "recipe_id": 6, "rating": 4.8, "interaction": "cook"},
+
+  {"user_id": 7, "recipe_id": 4, "rating": 4.5, "interaction": "cook"},
+  {"user_id": 7, "recipe_id": 7, "rating": 4.0, "interaction": "like"},
+  {"user_id": 7, "recipe_id": 1, "rating": 5.0, "interaction": "cook"},
+  {"user_id": 7, "recipe_id": 11, "rating": 4.0, "interaction": "view"},
+
+  {"user_id": 8, "recipe_id": 3, "rating": 4.8, "interaction": "cook"},
+  {"user_id": 8, "recipe_id": 5, "rating": 4.5, "interaction": "cook"},
+  {"user_id": 8, "recipe_id": 9, "rating": 4.2, "interaction": "save"},
+  {"user_id": 8, "recipe_id": 2, "rating": 4.0, "interaction": "like"}
+]
